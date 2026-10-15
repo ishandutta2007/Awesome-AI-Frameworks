@@ -28,57 +28,28 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global AI orchestration and agent frameworks market is estimated at approximately **$9.7B – $14B** and is projected to expand rapidly past **$50B+** by the early 2030s (at a ~22%–35%+ CAGR). The market demonstrates a **dual-tier dynamic**: the developer tooling and open-source layer remains **highly fragmented** with continuous startup and framework innovation, whereas enterprise governance, runtime infrastructure, and commercial agent platforms are **moderately concentrated** around tech titans and well-capitalized leaders.
+
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
-
-
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[LangSmith](https://smith.langchain.com/)**  
-
-  LangChain's observability and evaluation platform with detailed tracing of every LLM call, chain execution, and agent step—showing inputs, outputs, latency, token usage, and cost. **Free Developer plan** (1 seat, 5k base traces/month), **Plus at $39/seat/month** (10k base traces, 1 free serverless deployment), Enterprise with self-hosted/hybrid options.
-
-
-
-- **[LangFlow Cloud](https://www.langflow.org/)**  
-
-  Managed version of the open-source Langflow visual framework. Drag-and-drop LLM workflow builder with API deployment and MCP server support.
-
-
-
-- **[Flowise Cloud](https://flowiseai.com/)**  
-
-  Managed version of the open-source Flowise drag-and-drop LLM app builder. Visual chatbot construction with RAG pipelines and API endpoints.
-
-
-
-- **[Dify Cloud](https://dify.ai/)**  
-
-  Managed version of the open-source Dify LLM app development platform. Features agentic workflows, RAG pipeline, model management, and observability.
-
-
-
-- **[CrewAI Enterprise](https://www.crewai.com/)**  
-
-  Managed version of the open-source CrewAI multi-agent framework. Features deployment, monitoring, and team collaboration for agent crews.
-
-
-
-- **[AutoGen Studio](https://microsoft.github.io/autogen/)**  
-
-  Microsoft's managed interface for the AutoGen multi-agent framework. Visual agent composition and conversation orchestration.
-
-
+| Platform | Company / Parent | Valuation / Revenue Scale | Starting Paid Tier Pricing | Free Tier / Trial Limit | Key Features |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[AutoGen Studio](https://microsoft.github.io/autogen/)** | Microsoft | **~$3.1T Market Cap** / $245B+ Annual Revenue | **$0.00** platform fee (Pay-as-you-go via Azure OpenAI / Azure Container compute; e.g., Azure OpenAI tokens from ~$0.15/1M tokens) | **Free & open-source interface**; Azure free trial provides **$200 credit for 30 days** plus 55+ services free for 12 months | Multi-agent conversation orchestration, declarative agent configuration, local & cloud execution harness |
+| **[LangFlow Cloud](https://www.langflow.org/)** | DataStax (IBM subsidiary) | **~$210B Market Cap** (IBM) / DataStax acquired for **~$1.6B valuation** | **Pay-as-you-go / Standard tier** starting with consumption credits; Astra DB serverless paid plans from **$0.25/1M read units** | **Free forever tier**: Fixed free monthly Astra DB credits, up to 5 active serverless databases (auto-hibernated on credit exhaustion) | Visual drag-and-drop LLM builder, native Astra vector database integrations, MCP server components |
+| **[Flowise Cloud](https://flowiseai.com/)** | FlowiseAI (Acquired by Workday) | **~$70B Market Cap** (Workday) / Flowise Seed ~$500K, ~$1M ARR | **Starter: $35/month** | **Free forever plan**: Capped at **2 flows, 100 predictions/month, and 5 MB storage** | Low-code drag-and-drop workflow canvas, custom tool builders, embedded chat widgets, and API endpoints |
+| **[LangSmith](https://smith.langchain.com/)** | LangChain | **$1.25B – $1.3B Valuation** (Series B, ~$12M–$16M ARR) | **Plus: $39/seat/month** | **Free Developer plan**: 1 user seat, **5,000 base traces/month**, community support | End-to-end LLM observability, trace evaluation, prompt playground, dataset curation, and latency/cost tracking |
+| **[Dify Cloud](https://dify.ai/)** | LangGenius | **$180M Valuation** (Series Pre-A, $30M raised) | **Professional: $59/workspace/month** | **Sandbox (Free forever)**: 1 workspace, 1 member, **5 apps, 50 knowledge docs (~50 MB storage), and 200 system model credits** | Visual agentic orchestration, RAG pipelines, model router, prompt engineering tools, and team collaboration |
+| **[CrewAI Enterprise](https://www.crewai.com/)** | CrewAI | **~$100M Valuation** ($18M Series A) | **Enterprise: Custom / Quote-based** (Annual contracts starting at **~$6,000/year**) | **Basic (Free forever)**: CrewAI Studio visual editor, copilot, and **50 workflow executions/month** | Collaborative multi-agent teams, role-playing agents, orchestration governance, enterprise SSO, and execution telemetry |
 
 ## Open-Source GitHub Projects
 
